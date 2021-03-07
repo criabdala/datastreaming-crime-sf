@@ -14,4 +14,5 @@ I checked the value of processedRowsPerSecond, maxOffsetsPerTrigger, maxRatePerP
 Finally the best result was with these settings:
 
 spark.streaming.kafka.maxRatePerPartition : 10
+
 spark.default.parallelism : 3
